@@ -11,12 +11,12 @@
           ██        ██        ██      ██    @V_P_E     ███
           ██       ██  ████  ██      ██               ██ █
    ██    ██      ██            ██      ██              ██  █
-   ███████     ██SOURCE VAMBAIR██      ███████     ██   █
+   ███████     ██SOURCE FLASH██      ███████     ██   █
                                                                 ███
-                            VAMBAIR ﹏ @SUORSVAMBAIR
+                            ELMOSLM ﹏ @SUORSFLASH
                             تم تطوير وبرمجة السورس من قبل جاك والجوكر ✾ 
 -ـ-ـ-ـ-ـ-ــ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ--ـ-ـ-ـ-ـ
-┊VAMBAIR ‿ @V_P_E
+┊ELMOSLM ‿ @V_P_E
 ┊@V_P_E ‿ @V_P_E
 #-ـ-ـ-ـ-ـ-ــ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ-ـ--ـ-ـ-ـ-ـ
 cd $(cd $(dirname $0); pwd)
@@ -44,14 +44,14 @@ echo -e "${GREEN}
           ██        ██        ██      ██    @V_P_E     ███
           ██       ██  ████  ██      ██               ██ █
    ██    ██      ██            ██      ██              ██  █
-   ███████     ██SOURCE VAMBAIR██      ███████     ██   █
+   ███████     ██SOURCE FLASH██      ███████     ██   █
                                                                 ███
-                            FLASD ﹏ @SUORSVAMBAIR
+                            FLASD ﹏ @SUORSFLASH
                             تم تطوير وبرمجة السورس من قبل جاك والجوكر ✾ 
 ----------------------------------------------------------------------${CNIL}"
 echo -e "${RED}| للاسف لايمكنك تنصيب السورس ع نظام اوبنتو {${Version}} يجب ان يكون على اصدار  اقل مثلا  ${SMAY}14 او 16
 ${CNIL}";
-echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source VAMBAIR 
+echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source ELMOSLM 
 ${CNIL}";
 exit;
 fi
@@ -61,7 +61,7 @@ if [ ! -f "./TG" ]; then
 echo -e "${RED}
 ¦
 ¦ CAUTION:${WHITB} Your Not Dwonload TG .
-¦ NOW I Run File ${Yellow}./run${WHITB} To install ${SMAY}Source VAMBAIR${CNIL} . \n
+¦ NOW I Run File ${Yellow}./run${WHITB} To install ${SMAY}Source flash${CNIL} . \n
 \n\n"
 chmod +x ./ins
 ./ins
@@ -90,9 +90,9 @@ sudo rm -fr ../.telegram-cli
 done
 else
 
-if ! screen -list | grep -q "VAMBAIR"; then
-screen -S VAMBAIR ./run R
+if ! screen -list | grep -q "flash"; then
+screen -S ELMOSLM ./run R
 fi
-screen -S VAMBAIR -X kill
-screen -S VAMBAIR ./run R
+screen -S ELMOSLM -X kill
+screen -S ELMOSLM ./run R
 fi
